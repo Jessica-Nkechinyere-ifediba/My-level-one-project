@@ -1,0 +1,73 @@
+.absolute {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+}
+
+#absolute1 {
+    background-color: blue;
+    top: 100px;
+    left: 500px;
+}
+
+#absolute2 {
+    background-color: blueviolet;
+    top: 190px;
+    left: 470px;
+}
+
+#absolute3 {
+    background-color: purple;
+    top: 280px;
+    left: 460px;
+}
+
+#absolute4 {
+    background-color: greenyellow;
+    top: 360px;
+    left: 490px;
+}
+
+#absolute5 {
+    background-color: green;
+    top: 430px;
+    left: 540px;
+}
+
+#absolute6 {
+    background-color: blue;
+    top: 100px;
+    right: 450px;
+}
+
+#absolute7 {
+    background-color: blueviolet;
+    top: 180px;
+    right: 400px;
+}
+
+#absolute8 {
+    background-color: purple;
+    top: 270px;
+    right: 380px;
+}
+
+#absolute9 {
+    background-color: greenyellow;
+    top: 350px;
+    right: 410px;
+}
+
+#absolute10 {
+    background-color: green;
+    top: 425px;
+    right: 450px;
+}
+.relative img {
+    position: relative;
+    width: 15%;
+    top: 200px;
+    left: 570px;
+}

@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.go {
+    background-color: red;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 50%;
+    font-size: 30px;
+    position: fixed;
+    z-index: 100;
+    bottom: 50px;
+    left: 20px;
+}
+
+nav {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    position: sticky;
+    top: 0px;
+}
+
+/* Coordinates --> top  right bottom left */
+
+nav h1 {
+    color: brown;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: brown;
+}
+
+nav button {
+    padding: 10px 20px;
+    background-color: brown;
+    color: aliceblue;
+    border: none;
+    border-radius: 8px;
+}

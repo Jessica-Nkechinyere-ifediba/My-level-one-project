@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Compare the best laptops and phones of 2025 with detailed specs and prices.">
+    <title>Laptop & Phone Comparison 2025</title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f4f4f4;
+    }
+
+    header, footer {
+        background: #1a73e8;
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    main {
+        max-width: 1100px;
+        margin: 2rem auto;
+        padding: 1rem;
+    }
+
+    h2 {
+        color: #1a73e8;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .responsive-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 2rem;
+    }
+
+    .responsive-table th,
+    .responsive-table td {
+        border: 1px solid #1a73e8;
+        padding: 8px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .responsive-table th {
+        background: #1a73e8;
+        color: #fff;
+    }
+
+    .responsive-table tr:nth-child(even) {
+        background: #fafafa;
+    }
+
+    .responsive-table tr.highlight {
+        background: #fffae6;
+        font-weight: bold;
+    }
+
+    .responsive-table img {
+        width: 80px;
+        height: auto;
+        display: block;
+        margin: 0 auto 5px;
+    }
+
+    .summary {
+        background: #fff;
+        padding: 1rem;
+        margin-bottom: 2rem;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    /* Responsive: stack rows on mobile */
+    @media (max-width: 768px) {
+        .responsive-table thead {
+          display: none; /* hide header */
+        }
+        .responsive-table,
+        .responsive-table tbody,
+        .responsive-table tr,
+        .responsive-table td {
+        display: block;
+        width: 100%;
+        }
+        .responsive-table tr {
+        margin-bottom: 1rem;
+        border-bottom: 2px solid #1a73e8;
+        }
+        .responsive-table td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+        }
+        .responsive-table td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 10px;
+        width: calc(50% - 20px);
+        font-weight: bold;
+        text-align: left;
+        }
+    }
+    </style>
+</head>
+<body>
+
+    <header>
+    <h1>Laptop & Phone Comparison 2025</h1>
+    <p>Detailed specs and highlights</p>
+    </header>
+
+    <main>
+    <h2>Top Laptops 2025</h2>
+    <table class="responsive-table">
+        <thead>
+        <tr>
+            <th>Series</th>
+            <th>Variants</th>
+            <th>RAM</th>
+            <th>Storage</th>
+            <th>Processor</th>
+            <th>Display</th>
+            <th>Battery</th>
+            <th>Notes</th>
+            <th>Price</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td data-label="Series"><img src="images/macbook-air-m3.jpg" alt="MacBook Air M3">MacBook Air M3</td>
+            <td data-label="Variants">13" / 15"</td>
+            <td data-label="RAM">8GB / 16GB</td>
+            <td data-label="Storage">256GB / 512GB / 1TB</td>
+            <td data-label="Processor">Apple M3</td>
+            <td data-label="Display">Retina 13"/15"</td>
+            <td data-label="Battery">18 hrs</td>
+            <td data-label="Notes">Lightweight, silent design</td>
+            <td data-label="Price">$1,099+</td>
+        </tr>
+        <tr class="highlight">
+            <td data-label="Series"><img src="images/dell-xps-13.jpg" alt="Dell XPS 13">Dell XPS 13</td>
+            <td data-label="Variants">13" OLED</td>
+            <td data-label="RAM">16GB / 32GB</td>
+            <td data-label="Storage">512GB / 1TB</td>
+            <td data-label="Processor">Intel i7-14th Gen</td>
+            <td data-label="Display">13" OLED</td>
+            <td data-label="Battery">12 hrs</td>
+            <td data-label="Notes">Premium build, high performance</td>
+            <td data-label="Price">$1,299+</td>
+        </tr>
+        <tr>
+            <td data-label="Series"><img src="images/lenovo-thinkpad-x1.jpg" alt="Lenovo ThinkPad X1">Lenovo ThinkPad X1</td>
+            <td data-label="Variants">14" Carbon</td>
+            <td data-label="RAM">16GB / 32GB</td>
+            <td data-label="Storage">1TB / 2TB</td>
+            <td data-label="Processor">Intel i7-14th Gen</td>
+            <td data-label="Display">14" FHD / UHD</td>
+            <td data-label="Battery">15 hrs</td>
+            <td data-label="Notes">Durable, business-grade keyboard</td>
+            <td data-label="Price">$1,399+</td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="summary"><strong>Summary:</strong> Dell XPS 13 is best for professionals needing power and style.</div>
+
+    <h2>Top Phones 2025</h2>
+    <table class="responsive-table">
+        <thead>
+        <tr>
+            <th>Series</th>
+            <th>Variants</th>
+            <th>RAM</th>
+            <th>Storage</th>
+            <th>Processor</th>
+            <th>Display</th>
+            <th>Battery</th>
+            <th>Camera</th>
+            <th>Notes</th>
+            <th>Price</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td data-label="Series"><img src="images/iphone-17.jpg" alt="iPhone 17">iPhone 17</td>
+            <td data-label="Variants">17 / 17 Pro / 17 Pro Max</td>
+            <td data-label="RAM">8GB / 12GB</td>
+            <td data-label="Storage">256GB / 512GB / 1TB</td>
+            <td data-label="Processor">A19 Bionic</td>
+            <td data-label="Display">6.1"/6.7" OLED</td>
+            <td data-label="Battery">3200–4500 mAh</td>
+            <td data-label="Camera">Triple 48MP / 12MP</td>
+            <td data-label="Notes">iOS ecosystem</td>
+            <td data-label="Price">$1,199+</td>
+        </tr>
+        <tr class="highlight">
+            <td data-label="Series"><img src="images/galaxy-s25.jpg" alt="Samsung Galaxy S25">Galaxy S25 Ultra</td>
+            <td data-label="Variants">S25 / S25+ / S25 Ultra</td>
+            <td data-label="RAM">12GB / 16GB</td>
+            <td data-label="Storage">256GB / 512GB / 1TB</td>
+            <td data-label="Processor">Snapdragon 8 Gen 4</td>
+            <td data-label="Display">6.8" AMOLED QHD+</td>
+            <td data-label="Battery">5000 mAh</td>
+            <td data-label="Camera">Quad 200MP + 12MP</td>
+            <td data-label="Notes">Best display, multitasking</td>
+            <td data-label="Price">$1,399+</td>
+        </tr>
+        <tr>
+            <td data-label="Series"><img src="images/pixel-10.jpg" alt="Google Pixel 10">Pixel 10</td>
+            <td data-label="Variants">10 / 10 Pro</td>
+            <td data-label="RAM">12GB</td>
+            <td data-label="Storage">256GB / 512GB</td>
+            <td data-label="Processor">Tensor G5</td>
+            <td data-label="Display">6.3"/6.7" OLED</td>
+            <td data-label="Battery">4000–4500 mAh</td>
+            <td data-label="Camera">Dual 50MP / 12MP</td>
+            <td data-label="Notes">AI-driven features</td>
+            <td data-label="Price">$999+</td>
+        </tr>
+    </tbody>
+    </table>
+        <div class="summary"><strong>Summary:</strong> Samsung Galaxy S25 Ultra is best for display and multitasking.</div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tech Reviews by Jessica Ifediba</p>
+    </footer>
+
+</body>
+</html>

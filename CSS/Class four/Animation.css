@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    animation: car 10s linear 1s infinite;
+}
+
+@keyframes car {
+    from {
+        transform: translate(0px,0px);
+    }
+    to {
+        transform: translate(1750px,0px);
+    }
+}
+
+@keyframes car {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    25% {
+        transform: translate(1720px, 0px);
+    }
+
+    50% {
+        transform: translate(1720px, 700px);
+    }
+    75% {
+        transform: translate(0px, 700px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
